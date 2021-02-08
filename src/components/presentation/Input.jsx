@@ -15,7 +15,8 @@ const Input = ({ url, method, body, onSubmit, onChange }) => {
         <div>
           <input 
             type="radio" 
-            id="get" name="method" 
+            id="get" 
+            name="method" 
             value="GET" 
             checked={method === 'GET'} 
             onChange={onChange} />
